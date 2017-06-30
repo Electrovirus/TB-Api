@@ -1,12 +1,12 @@
 return {
-	bot_api_key = "370718108:AAF00EM_erX8GFmPjo9judFntSQfhhRKrpQ", --Please add your bot api key here!
+	bot_api_key = "448461321:AAFPbRwqu_xroOOUtBzgw-8EO0c56X9Zv1g", --Please add your bot api key here!
 	cmd = '^[/!#]',
 	allowed_updates = {"message", "edited_message", "callback_query"},
 	db = 2, --default redis db: 0
 	superadmins = {184018132},
 	log = {
 		chat = -1001089188566, --Your log chat, where your bot must be added!
-		admin = 184018132, --The admin.
+		admin = 92453612, --The admin.
 		stats = nil
 	},
 	human_readable_version = '4.2.0',
@@ -28,7 +28,7 @@ return {
 		realm_max_members = 60,
 		realm_max_subgroups = 6
 	},
-	channel = '@ev_official', --channel username with the '@'
+	channel = '@vampizzaaa', --channel username with the '@'
 	source_code = 'https://github.com/RememberTheAir/GroupButler/tree/beta',
 	help_groups_link = 'telegram.me/GBgroups',
 	plugins = {
